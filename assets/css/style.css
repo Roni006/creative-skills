@@ -324,6 +324,84 @@ h6 {
 }
 /*FAQ's SECTION EMD */
 
+/*SUCCESS SECTION START  */
+.seccess-section{
+    padding: 100PX 0; 
+}
+.success-video{
+    position: relative;
+}
+.play1{
+    position: absolute;
+    top: 211px;
+    left: 289px;
+    cursor: pointer;
+}
+
+.plays{ 
+    cursor: pointer;
+    transition: all linear 0.2s;
+    border-radius: 50%;
+}
+.plays:hover{
+    transform: scale(1.2);
+    background-color: var(--menu-item-hover-color);
+}
+
+.success-left-content .s-title{
+    font-weight: 600;
+}
+.success-left-content .s-desc{
+    font-size: 18px;
+    max-width: 470px;
+    padding: 32px 0 50px 0;
+    font-weight: 400;
+    color: var(--menu-color);
+}
+
+.s-block{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.video1{
+    position: relative;
+}
+.play{
+    position: absolute;
+    width: 70px;
+    top: 75px;
+    left: 90px;
+    cursor: pointer;
+    transition: all linear 0.2s;
+    border-radius: 50%;
+}
+.play:hover{
+    transform: scale(1.2);
+    background-color: var(--menu-item-hover-color);
+}
+
+/*SUCCESS SECTION EMD */
+
+/*LEARNING SECTION START  */
+.learning-section .container{
+    background-color: var(--bg-color);
+    padding: 55px 0;
+}
+.learning-section .row{
+    gap: 50px;
+}
+
+.learn-title{
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.learning-from button{
+    text-align: left;
+}
+/*LEARNING SECTION EMD */
+
 /* SECTION START  */
 /* SECTION EMD */
 
