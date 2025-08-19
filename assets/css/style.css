@@ -80,7 +80,14 @@ h6 {
     padding: 0;
 }
 
+.disabled{
+    display: none;
+}
+
+
 /* ?SET UP FONTS */
+
+
 
 
 /*HEADER SECTION START  */
@@ -88,12 +95,13 @@ h6 {
     background-color: var(--bg-color);
 }
 .navbar .container{
-    position: fixed ;
-    top: 0;
+    /* position: fixed ; */
+    /* top: 0; */
     background-color: var(--bg-color);
     z-index: 999;
-    border-bottom: 1px solid var(--menu-item-hover-color);
-    border-radius:0 0 10px 10px;
+    /* padding: 0 15px; */
+    /* border-bottom: 1px solid var(--menu-item-hover-color);
+    border-radius:0 0 10px 10px; */
 }
 .nav-item .nav-link {
     padding: 0 25px !important;
@@ -404,10 +412,7 @@ h6 {
     font-weight: 600;
     margin-bottom: 50px;
 }
-/* .learning-from button{
-    text-align: left;
-} */
-.btn {
+#btn {
     display: flex;
     justify-self: flex-end;
 }
