@@ -93,7 +93,7 @@ h6 {
     background-color: var(--bg-color);
     z-index: 999;
     border-bottom: 1px solid var(--menu-item-hover-color);
-    border-radius: 10px;
+    border-radius:0 0 10px 10px;
 }
 .nav-item .nav-link {
     padding: 0 25px !important;
@@ -163,6 +163,12 @@ h6 {
     color: var(--white-color);
     padding: 15px 20px;
     border-radius: 10px;
+    border: 1px solid var(--menu-item-hover-color) !important;
+    transition: all linear 0.23s;
+}
+.hero-btns .fill:hover {
+    background-color: transparent; 
+    color: var(--menu-item-hover-color);
 }
 
 .hero-btns .icon-btn {
@@ -385,24 +391,101 @@ h6 {
 /*SUCCESS SECTION EMD */
 
 /*LEARNING SECTION START  */
-.learning-section .container{
+.learning-section .container {
     background-color: var(--bg-color);
     padding: 55px 0;
+    border-radius: 20px;
 }
 .learning-section .row{
-    gap: 50px;
+    gap: 50px; 
 }
 
 .learn-title{
     font-weight: 600;
     margin-bottom: 50px;
 }
-.learning-from button{
+/* .learning-from button{
     text-align: left;
+} */
+.btn {
+    display: flex;
+    justify-self: flex-end;
+}
+
+input:last-child { 
+    margin-bottom: 30px; 
+}
+input {
+    width: 100%;
+    padding: 15px 0 5px 0;
+    display: flex; 
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--gb-text-color);
+    background: transparent;
+}
+#margin {
+    margin-bottom: 25px;
+}
+
+::placeholder{
+    font-size: 20px;
+    font-weight: 300;
 }
 /*LEARNING SECTION EMD */
 
-/* SECTION START  */
-/* SECTION EMD */
+/*FOOTER SECTION START  */
+.footer-section{
+    padding: 120px 0 20px  0;
+}
+.footer-section .row{
+    border-top: 1px solid var(--menu-color);
+    padding: 50px 0 0 0;
+}
+.footer-title{
+    font-weight: 600;
+    color: var(--black-color);
+}
+.color{
+    color: var(--menu-item-hover-color);
+}
+.footer-dsc{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0 30px 0;
+}
+.footer-left-content{
+    text-align: right;
+
+}
+.location-details p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0 35px 0;
+}
+.icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.face a i{
+    background-color: var(--menu-item-hover-color);
+    width: 60px;
+    height: 60px;
+    color: var(--white-color);
+    line-height: 60px;
+    border-radius: 10px;
+    font-size: 22px;
+    border: 1px solid var(--menu-item-hover-color);
+    transition: all linear 0.2s;
+}
+.face a i:hover{ 
+    background-color: transparent;
+    color: var(--menu-item-hover-color);
+}
+/*FOOTER SECTION EMD */
 
 /* DJKFKJJ */
