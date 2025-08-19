@@ -80,7 +80,7 @@ h6 {
     padding: 0;
 }
 
-.disabled{
+.disabled {
     display: none;
 }
 
@@ -94,15 +94,16 @@ h6 {
 .header-section {
     background-color: var(--bg-color);
 }
-.navbar .container{
-    /* position: fixed ; */
+
+.navbar .container {
+    /* position: fixed; */
     /* top: 0; */
     background-color: var(--bg-color);
     z-index: 999;
-    /* padding: 0 15px; */
-    /* border-bottom: 1px solid var(--menu-item-hover-color);
-    border-radius:0 0 10px 10px; */
+    padding: 0;
 }
+
+
 .nav-item .nav-link {
     padding: 0 25px !important;
     transition: all linear 0.2s;
@@ -174,8 +175,9 @@ h6 {
     border: 1px solid var(--menu-item-hover-color) !important;
     transition: all linear 0.23s;
 }
+
 .hero-btns .fill:hover {
-    background-color: transparent; 
+    background-color: transparent;
     color: var(--menu-item-hover-color);
 }
 
@@ -307,7 +309,7 @@ h6 {
     background-color: var(--bg-color);
 }
 
- 
+
 .faq-content {
     position: relative;
 }
@@ -317,55 +319,65 @@ h6 {
     left: 246px;
     top: -40px;
 }
-.faq-left-content{
+
+.faq-left-content {
     margin-bottom: 50px;
 }
-.accordion-item { 
+
+.accordion-item {
     margin-bottom: 30px;
-    border: none; 
+    border: none;
 }
-.accordion-button{
-    padding: 25px 25px; 
+
+.accordion-button {
+    padding: 25px 25px;
     color: var(--menu-color);
     font-size: 18px;
 }
-.accordion-button .collapsed{ 
+
+.accordion-button .collapsed {
     color: var(--menu-item-hover-color);
 }
-.accordion-body{
+
+.accordion-body {
     padding: 22px 0 45px 25px;
     width: 631px;
 }
+
 /*FAQ's SECTION EMD */
 
 /*SUCCESS SECTION START  */
-.seccess-section{
-    padding: 100PX 0; 
+.seccess-section {
+    padding: 100PX 0;
 }
-.success-video{
+
+.success-video {
     position: relative;
 }
-.play1{
+
+.play1 {
     position: absolute;
     top: 211px;
     left: 289px;
     cursor: pointer;
 }
 
-.plays{ 
+.plays {
     cursor: pointer;
     transition: all linear 0.2s;
     border-radius: 50%;
 }
-.plays:hover{
+
+.plays:hover {
     transform: scale(1.2);
     background-color: var(--menu-item-hover-color);
 }
 
-.success-left-content .s-title{
+.success-left-content .s-title {
     font-weight: 600;
 }
-.success-left-content .s-desc{
+
+.success-left-content .s-desc {
     font-size: 18px;
     max-width: 470px;
     padding: 32px 0 50px 0;
@@ -373,16 +385,17 @@ h6 {
     color: var(--menu-color);
 }
 
-.s-block{
+.s-block {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.video1{
+.video1 {
     position: relative;
 }
-.play{
+
+.play {
     position: absolute;
     width: 70px;
     top: 75px;
@@ -391,7 +404,8 @@ h6 {
     transition: all linear 0.2s;
     border-radius: 50%;
 }
-.play:hover{
+
+.play:hover {
     transform: scale(1.2);
     background-color: var(--menu-item-hover-color);
 }
@@ -404,71 +418,83 @@ h6 {
     padding: 55px 0;
     border-radius: 20px;
 }
-.learning-section .row{
-    gap: 50px; 
+
+.learning-section .row {
+    gap: 50px;
 }
 
-.learn-title{
+.learn-title {
     font-weight: 600;
     margin-bottom: 50px;
 }
+
 #btn {
     display: flex;
     justify-self: flex-end;
 }
 
-input:last-child { 
-    margin-bottom: 30px; 
+input:last-child {
+    margin-bottom: 30px;
 }
+
 input {
     width: 100%;
     padding: 15px 0 5px 0;
-    display: flex; 
+    display: flex;
     outline: none;
     border: none;
     border-bottom: 1px solid var(--gb-text-color);
     background: transparent;
 }
+
 #margin {
     margin-bottom: 25px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 20px;
     font-weight: 300;
 }
+
 /*LEARNING SECTION EMD */
 
 /*FOOTER SECTION START  */
-.footer-section{
-    padding: 120px 0 20px  0;
+.footer-section {
+    padding: 120px 0 20px 0;
 }
-.footer-section .row{
+
+.footer-section .row {
     border-top: 1px solid var(--menu-color);
     padding: 50px 0 0 0;
 }
-.footer-title{
+
+.footer-title {
     font-weight: 600;
     color: var(--black-color);
 }
-.color{
+
+.color {
     color: var(--menu-item-hover-color);
 }
-.footer-dsc{
+
+.footer-dsc {
     font-size: 18px;
     font-weight: 400;
     margin: 15px 0 30px 0;
 }
-.footer-left-content{
+
+.footer-left-content {
     text-align: right;
 
 }
-.location-details p{
+
+.location-details p {
     font-size: 18px;
     font-weight: 400;
     margin: 10px 0 35px 0;
 }
-.icons{
+
+.icons {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
@@ -476,7 +502,7 @@ input {
     gap: 10px;
 }
 
-.face a i{
+.face a i {
     background-color: var(--menu-item-hover-color);
     width: 60px;
     height: 60px;
@@ -487,10 +513,12 @@ input {
     border: 1px solid var(--menu-item-hover-color);
     transition: all linear 0.2s;
 }
-.face a i:hover{ 
+
+.face a i:hover {
     background-color: transparent;
     color: var(--menu-item-hover-color);
 }
+
 /*FOOTER SECTION EMD */
 
 /* DJKFKJJ */

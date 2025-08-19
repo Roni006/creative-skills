@@ -12,7 +12,7 @@
     }
 
     .hero-section {
-        padding: 60px 0 0px 0 !important;
+        padding: 60px 0 !important;
     }
 
     .hero-title {
@@ -30,6 +30,28 @@
     .hero-bg {
         max-width: 430px;
     }
+
+    .sk-title {
+        margin-bottom: 40px !important;
+        font-size: 45px !important;
+        max-width: 450px !important;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .sk-desc {
+        max-width: 585px !important;
+        margin: 0 auto;
+        font-size: 16px;
+    }
+
+    .skill-section {
+        padding: 60px 0 !important;
+    }
+
+    .sk-left {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width: 475px) {
@@ -41,6 +63,14 @@
 
     .hero-desc {
         padding: 20px 0 30px 0 !important;
+    }
+
+    .sk-left {
+        margin-bottom: 30px !important;
+    }
+
+    .sk-left-desc { 
+        text-align: justify !important;
     }
 }
 
@@ -62,8 +92,43 @@
         padding: 10px 15px !important;
     }
 
-    .hero-btns .icon-btn { 
-        padding: 10px 15px !important; 
+    .hero-btns .icon-btn {
+        padding: 10px 15px !important;
+    }
+
+    .sk-title {
+        margin-bottom: 40px !important;
+        font-size: 31px !important;
+        max-width: 450px !important;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .sk-title {
+        margin-bottom: 40px !important;
+        font-size: 31px !important;
+        max-width: 450px !important;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+
+    .sk-desc {
+        text-align: justify;
+
+    }
+
+    .sk-left-title {
+        font-size: 30px;
+    }
+
+    .sk-left-desc {
+        max-width: 485px;
+        margin: 12px 0 30px 0 !important;
+        text-align: justify !important;
+    }
+
+    .sk-para p {
+        font-size: 16px !important;
     }
 }
 
