@@ -88,8 +88,6 @@ h6 {
 /* ?SET UP FONTS */
 
 
-
-
 /*HEADER SECTION START  */
 .header-section {
     background-color: var(--bg-color);
@@ -133,6 +131,11 @@ h6 {
 .nav-item .nav-link.active {
     color: var(--menu-item-hover-color);
 
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none; 
 }
 
 /*HEADER SECTION EMD */
@@ -299,6 +302,10 @@ h6 {
 .gb-text {
     font-size: 16px;
     color: var(--gb-text-color);
+}
+
+.gbox-content {
+    margin-bottom: 30px;
 }
 
 /*GROWING SECTION EMD */
