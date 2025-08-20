@@ -424,6 +424,9 @@ h6 {
 /*SUCCESS SECTION EMD */
 
 /*LEARNING SECTION START  */
+.learning-section{
+    padding: 0 15px;
+}
 .learning-section .container {
     background-color: var(--bg-color);
     padding: 55px 0;

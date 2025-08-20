@@ -51,6 +51,22 @@
         display: none;
     }
 
+    .seccess-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .s-block {
+        margin-bottom: 30px;
+    }
+
+    .success-left-content .s-desc {
+        padding: 30px 0 30px 0 !important;
+    }
+
+    .learn-total-content {
+        padding: 0 15px;
+    }
+
 }
 
 @media(max-width: 767px) {
@@ -100,6 +116,10 @@
     .left-title {
         font-size: 45px;
     }
+
+    .seccess-section {
+        padding: 60PX 0 !important;
+    }
 }
 
 @media(max-width: 580px) {
@@ -107,6 +127,14 @@
         width: 100% !important;
     }
 }
+
+@media(max-width: 575px) {
+    .play1 {
+        top: 160px !important;
+        left: 225px !important;
+    }
+}
+
 
 @media(max-width: 475px) {
     .hero-title {
@@ -135,7 +163,47 @@
         text-align: center !important;
     }
 
+    .play1 {
+        top: 123px !important;
+        left: 160px !important;
+    }
 
+    .plays {
+        width: 85px;
+    }
+
+    .play {
+        width: 60px !important;
+        top: 55px !important;
+        left: 68px !important;
+    }
+
+    .success-left-content .s-title {
+        font-weight: 600;
+        font-size: 45px;
+    }
+
+    .seccess-section {
+        padding: 50PX 0 !important;
+    }
+
+    .s-block {
+        gap: 20px !important;
+    }
+
+    .s-block {
+        margin-bottom: 20px;
+    }
+
+    .learn-title {
+        margin-bottom: 25px !important;
+        font-size: 40px !important;
+    }
+
+    .learning-from .btn {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 @media(max-width: 375px) {
@@ -221,7 +289,43 @@
     }
 
     .accordion-item {
-        margin-bottom: 12px !important; 
+        margin-bottom: 12px !important;
+    }
+
+    .play {
+        width: 60px !important;
+        top: 33px !important;
+        left: 49px !important;
+    }
+
+    .play1 {
+        top: 95px !important;
+        left: 140px !important;
+    }
+
+    .success-left-content .s-title {
+        font-weight: 600;
+        max-width: 310px;
+        font-size: 30px;
+    }
+
+    .success-left-content .s-desc {
+        font-size: 16px !important;
+        text-align: justify;
+        padding: 30px 0 20px 0 !important;
+    }
+
+    .learn-title {
+        margin-bottom: 25px !important;
+        font-size: 30px !important;
+    }
+
+    #margin {
+        margin-bottom: 0 !important;
+    }
+
+    .glbtn { 
+        padding: 8px 15px !important; 
     }
 }
 
