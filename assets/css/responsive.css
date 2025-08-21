@@ -67,6 +67,28 @@
         padding: 0 15px;
     }
 
+    .footer-section .row {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: self-start;
+    }
+
+    .footer-left-content {
+        text-align: left !important;
+        margin-top: 40px;
+    }
+
+    .icons {
+        justify-content: flex-start !important;
+    }
+
+    .location-details p {
+        margin: 10px 0 20px 0 !important;
+    }
+
+    .icons {
+        margin-top: 15px !important;
+    }
 }
 
 @media(max-width: 767px) {
@@ -119,6 +141,18 @@
 
     .seccess-section {
         padding: 60PX 0 !important;
+    }
+
+    .location-details p {
+        max-width: 340px !important;
+    }
+
+    .footer-section {
+        padding: 70px 0 20px 0 !important;
+    }
+
+    .footer-section .row { 
+        padding: 25px 0 0 0 !important;
     }
 }
 
@@ -324,8 +358,39 @@
         margin-bottom: 0 !important;
     }
 
-    .glbtn { 
-        padding: 8px 15px !important; 
+    .glbtn {
+        padding: 8px 15px !important;
+    }
+
+    .footer-dsc {
+        font-size: 16px !important;
+        text-align: justify;
+    }
+
+    .location-details p {
+        font-size: 16px !important;
+    }
+
+    .face a i {
+        width: 50px !important;
+        height: 50px !important;
+        line-height: 50px !important;
+    }
+
+    .learn-title {
+        margin-bottom: 20px !important;
+    }
+
+    .learning-section .row {
+        gap: 35px !important;
+    }
+
+    .footer-section {
+        padding: 60px 0 20px 0 !important;
+    }
+
+    .footer-section .row {
+        padding: 22px 0 0 0 !important;
     }
 }
 
