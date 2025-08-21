@@ -316,7 +316,6 @@ h6 {
     background-color: var(--bg-color);
 }
 
-
 .faq-content {
     position: relative;
 }
@@ -344,6 +343,8 @@ h6 {
     padding: 25px 25px;
     color: var(--menu-color);
     font-size: 18px;
+    font-weight: 500;
+    /* border-bottom: 1px solid var(--menu-color); */
 }
 
 .accordion-button .collapsed {
@@ -351,11 +352,56 @@ h6 {
 }
 
 .accordion-body {
-    padding: 22px 25px 45px 25px;
-    width: 631px;
+    padding: 22px 60px 44px 26px;
+    width: 100%;
 }
 
+/* .accordion-body {
+    padding: 22px 25px 45px 25px;
+    width: 631px;
+} */
+
+.accordion-button:not(.collapsed) {
+    color: var(--menu-item-hover-color) !important;
+    background-color: transparent !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: none !important;
+    box-shadow: none;
+}
+
+.accordion-item:first-of-type {
+    border-radius: 15px;
+}
+
+.accordion-body p {
+    color: var(--menu-color);
+    font-size: 18px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 15px;
+}
+
+.accordion-body p {
+    color: var(--menu-color);
+    font-size: 18px;
+    border-top: 1px solid var(--menu-color);
+    padding-top: 20px;
+}
+ 
 /*FAQ's SECTION EMD */
+
+
 
 /*SUCCESS SECTION START  */
 .seccess-section {
@@ -424,9 +470,10 @@ h6 {
 /*SUCCESS SECTION EMD */
 
 /*LEARNING SECTION START  */
-.learning-section{
+.learning-section {
     padding: 0 15px;
 }
+
 .learning-section .container {
     background-color: var(--bg-color);
     padding: 55px 0;
